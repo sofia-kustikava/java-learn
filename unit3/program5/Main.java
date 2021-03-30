@@ -7,8 +7,8 @@ public class Main {
         Dog dog2 = new Dog();
         dog1.name = "Spot";
         dog2.name = "Scruffy";
-        dog1.says = "Woof";
-        dog2.says = "Meow?";
+        dog1.says = "Ruff!";
+        dog2.says = "Wurf!";
         System.out.println("The dog named " + dog1.name + " said " + dog1.says + ". But " + dog2.name + " said " + dog2.says);
     }
 }
