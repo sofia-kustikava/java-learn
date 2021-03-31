@@ -5,6 +5,8 @@
 
 public class Main {
     static void compare(String s1, String s2) {
+        System.out.println(!(s1 == s2));
+        System.out.println(!(s1 != s2));
         System.out.println(s1 + " != " + s2 + " : " + !(s1).equals(s2));
         System.out.println(s1 + " equals " + s2 + " : " + s1.equals(s2));
     }
