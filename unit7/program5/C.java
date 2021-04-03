@@ -2,7 +2,7 @@ public class C extends B{
     public C() {
         super("string");
     }
-    public String str() {
+    public String toString() {
         return "C";
     }
 }
