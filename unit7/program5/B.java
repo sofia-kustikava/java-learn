@@ -5,7 +5,7 @@ public class B extends A {
         System.out.println(this);
     }
 
-    public String str() {
+    public String toString() {
         return "B";
     }
 }
