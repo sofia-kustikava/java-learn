@@ -4,7 +4,7 @@ public class A {
         System.out.println(this);
     }
 
-    public String str() {
+    public String toString() {
         return "A";
     }
 }
