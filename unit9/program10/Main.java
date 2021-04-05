@@ -15,10 +15,10 @@ public class Main {
 
     public static void main(String[] args) {
         Playable[] orchestra = {
-                new Windd(),
-                new Percussionn(),
-                new Stringedd(),
-                new Brasss(),
+                new Wind(),
+                new Percussion(),
+                new Stringed(),
+                new Brass(),
                 new Woodwind()
         };
         tuneAll(orchestra);
