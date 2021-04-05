@@ -1,0 +1,3 @@
+interface MainFactory {
+    Cycle makeCycle();
+}
